@@ -1,0 +1,1376 @@
+{
+    "pizza": [
+        {
+            "id": 1,
+            "name": "Домашняя",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },            
+                    "weight": {
+                        "25": false,
+                        "30": 510,
+                        "35": 770
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },            
+                    "weight": {
+                        "25": 420,
+                        "30": 630,
+                        "35": 880
+                    }
+                }
+            },
+            "price": {
+                "25": 419,
+                "30": 629,
+                "35": 749
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Пикантная пепперони", "ветчина", "маринованные огурчики", "томаты","моцарелла", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin1.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional1.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Классическая",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 430,
+                        "35": 580
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 350,
+                        "30": 520,
+                        "35": 670
+                    }
+                }
+            },
+            "price": {
+                "25": 289,
+                "30": 479,
+                "35": 619
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Увеличенная порция моцареллы", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin2.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional2.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Ветчина и сыр",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 400,
+                        "35": 560
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 330,
+                        "30": 500,
+                        "35": 670
+                    }
+                }
+            },
+            "price": {
+                "25": 309,
+                "30": 479,
+                "35": 609
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Ветчина", "моцарелла", "соус альфредо"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin3.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional3.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Сырная",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 390,
+                        "35": 560
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 330,
+                        "30": 500,
+                        "35": 670
+                    }
+                }
+            },
+            "price": {
+                "25": 289,
+                "30": 479,
+                "35": 619
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Моцарелла", "сыры чеддер и пармезан", "соус альфредо"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin4.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional4.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Карбонара",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 530,
+                        "35": 750
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 420,
+                        "30": 630,
+                        "35": 870
+                    }
+                }
+            },
+            "price": {
+                "25": 469,
+                "30": 719,
+                "35": 799
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Бекон", "сыры чеддер и пармезан", "томаты", "красный лук", "чеснок", "итальянские травы","моцарелла", "соус альфредо"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin5.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional5.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Пепперони фреш",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 510,
+                        "35": 720
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 410,
+                        "30": 620,
+                        "35": 830
+                    }
+                }
+            },
+            "price": {
+                "25": 289,
+                "30": 479,
+                "35": 619
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Пикантная пепперони","томаты","увеличенная порция моцареллы", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin6.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional6.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Песто",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 530,
+                        "35": 750
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 420,
+                        "30": 630,
+                        "35": 860
+                    }
+                }
+            },
+            "price": {
+                "25": 420,
+                "30": 719,
+                "35": 799
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Цыпленок", "кубики брынзы", "томаты", "соус песто", "моцарелла", "соус альфредо"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin7.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional7.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Чикен бомбони",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 630,
+                        "35": 870
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 480,
+                        "30": 730,
+                        "35": 970
+                    }
+                }
+            },
+            "price": {
+                "25": 469,
+                "30": 719,
+                "35": 799
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Куриные кусочки", "сладкий перец", "смесь сыров чеддер и пармезан", "красный лук","моцарелла", "соус сладкий чили", "соус альфредо"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin8.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional8.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Пепперони",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 480,
+                        "35": 660
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 390,
+                        "30": 580,
+                        "35": 780
+                    }
+                }
+            },
+            "price": {
+                "25": 419,
+                "30": 629,
+                "35": 749
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Пикантная пепперони", "увеличенная порция моцареллы", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin9.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional9.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Ветчина и грибы",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 510,
+                        "35": 710
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 410,
+                        "30": 620,
+                        "35": 830
+                    }
+                }
+            },
+            "price": {
+                "25": 369,
+                "30": 529,
+                "35": 689
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Ветчина", "шампиньоны","увеличенная порция моцареллы", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin10.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional10.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Двойной цыпленок",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 440,
+                        "35": 630
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 360,
+                        "30": 540,
+                        "35": 730
+                    }
+                }
+            },
+            "price": {
+                "25": 309,
+                "30": 479,
+                "35": 609
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Цыпленок","моцарелла", "соус альфредо"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin11.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional11.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 12,
+            "name": "Маргарита",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 530,
+                        "35": 740
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 420,
+                        "30": 640,
+                        "35": 860
+                    }
+                }
+            },
+            "price": {
+                "25": 369,
+                "30": 529,
+                "35": 689
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Увеличенная порция моцареллы","томаты", "итальянские травы", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin12.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional12.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 13,
+            "name": "Четыре сыра",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 460,
+                        "35": 650
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 380,
+                        "30": 570,
+                        "35": 760
+                    }
+                }
+            },
+            "price": {
+                "25": 469,
+                "30": 719,
+                "35": 799
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Сыр блю чиз", "сыры чеддер и пармезан","моцарелла", "соус альфредо"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin13.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional13.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 14,
+            "name": "Мясная",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 500,
+                        "35": 720
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 410,
+                        "30": 610,
+                        "35": 830
+                    }
+                }
+            },
+            "price": {
+                "25": 469,
+                "30": 719,
+                "35": 799
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Цыпленок", "ветчина", "пикантная пепперони", "острая чоризо","моцарелла", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin14.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional14.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 15,
+            "name": "Четыре сезона",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 550,
+                        "35": 780
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 440,
+                        "30": 660,
+                        "35": 900
+                    }
+                }
+            },
+            "price": {
+                "25": 419,
+                "30": 629,
+                "35": 749
+            },
+            "additionally": {
+                "change": [],
+                "default": ["ветчина", "пикантная пепперони", "кубики брынзы", "томаты", "шампиньоны", "итальянские травы", "Увеличенная порция моцареллы", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin15.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional15.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 16,
+            "name": "Аррива!",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 480,
+                        "35": 680
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 390,
+                        "30": 590,
+                        "35": 790
+                    }
+                }
+            },
+            "price": {
+                "25": 419,
+                "30": 629,
+                "35": 749
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Цыпленок", "острая чоризо", "сладкий перец", "красный лук", "томаты", "чеснок", "соус бургер","моцарелла", "cоус ранч"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin16.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional16.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 17,
+            "name": "Диабло",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 640,
+                        "35": 900
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 490,
+                        "30": 740,
+                        "35": 1000
+                    }
+                }
+            },
+            "price": {
+                "25": 469,
+                "30": 719,
+                "35": 799
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Острая чоризо", "острый перец халапеньо", " митболы", "томаты", "сладкий перец", "красный лук", "соус барбекю", "моцарелла", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin17.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional17.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 18,
+            "name": "Овощи гриль",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 570,
+                        "35": 810
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 470,
+                        "30": 660,
+                        "35": 920
+                    }
+                }
+            },
+            "price": {
+                "25": 469,
+                "30": 719,
+                "35": 799
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Овощи гриль", "томаты", "красный лук", "чеснок", "моцарелла", "соус песто", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin18.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional18.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 19,
+            "name": "Сырный цыпленок",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 520,
+                        "35": 770
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 410,
+                        "30": 620,
+                        "35": 870
+                    }
+                }
+            },
+            "price": {
+                "25": 469,
+                "30": 719,
+                "35": 799
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Цыпленок", "моцарелла", "сыры чеддер и пармезан", "сырный соус", "томаты", "соус альфредо", "чеснок"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin19.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional19.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 20,
+            "name": "Цыпленок барбекю",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 560,
+                        "35": 800
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 450,
+                        "30": 670,
+                        "35": 920
+                    }
+                }
+            },
+            "price": {
+                "25": 469,
+                "30": 719,
+                "35": 799
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Цыпленок", "бекон", "соус барбекю", "красный лук", "моцарелла", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin20.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional20.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 21,
+            "name": "Овощи и грибы",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 560,
+                        "35": 790
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 440,
+                        "30": 670,
+                        "35": 910
+                    }
+                }
+            },
+            "price": {
+                "25": 419,
+                "30": 629,
+                "35": 749
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Шампиньоны", "томаты", "сладкий перец", "красный лук", "кубики брынзы", "моцарелла", "томатный соус", "итальянские травы"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin21.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional21.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 22,
+            "name": "Цыпленок ранч",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 540,
+                        "35": 770
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 430,
+                        "30": 650,
+                        "35": 890
+                    }
+                }
+            },
+            "price": {
+                "25": 469,
+                "30": 719,
+                "35": 799
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Цыпленок", "ветчина", "соус ранч", "моцарелла", "томаты", "чеснок"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin22.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional22.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 23,
+            "name": "Чизбургер-пицца",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 620,
+                        "35": 830
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 480,
+                        "30": 720,
+                        "35": 950
+                    }
+                }
+            },
+            "price": {
+                "25": 419,
+                "30": 629,
+                "35": 749
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Мясной соус болоньезе", "соус бургер", "маринованные огурчики", "томаты", "красный лук", "моцарелла"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin23.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional23.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 24,
+            "name": "Гавайская",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 540,
+                        "35": 750
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 430,
+                        "30": 650,
+                        "35": 870
+                    }
+                }
+            },
+            "price": {
+                "25": 419,
+                "30": 629,
+                "35": 749
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Ветчина", "ананасы", "моцарелла", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin24.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional24.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 25,
+            "name": "Колбаски барбекю",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 400,
+                        "35": 570
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 330,
+                        "30": 500,
+                        "35": 670
+                    }
+                }
+            },
+            "price": {
+                "25": 419,
+                "30": 629,
+                "35": 749
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Острая чоризо", "соус барбекю", "томаты", "красный лук", "моцарелла", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin25.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional25.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 26,
+            "name": "Двойная пепперони",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 510,
+                        "35": 700
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 420,
+                        "30": 670,
+                        "35": 820
+                    }
+                }
+            },
+            "price": {
+                "25": 479,
+                "30": 719,
+                "35": 799
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Двойная порция пикантной пепперони", "увеличенная порция моцареллы", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin26.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional26.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 27,
+            "name": "Супермясная",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 550,
+                        "35": 780
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 440,
+                        "30": 660,
+                        "35": 900
+                    }
+                }
+            },
+            "price": {
+                "25": 519,
+                "30": 819,
+                "35": 949
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Пикантная пепперони", "цыпленок", "острая чоризо", "бекон", "митболы", "моцарелла", "томатный соус"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin27.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional27.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        },
+        {
+            "id": 28,
+            "name": "Пицца-пирог",
+            "dough": {
+                "thin": {
+                    "size": {
+                        "25": false,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": false,
+                        "30": 420,
+                        "35": 600
+                    }
+                },
+                "traditional": {
+                    "size": {
+                        "25": true,
+                        "30": true,
+                        "35": true
+                    },
+                    "weight": {
+                        "25": 340,
+                        "30": 520,
+                        "35": 720
+                    }
+                }
+            },
+            "price": {
+                "25": 369,
+                "30": 529,
+                "35": 689
+            },
+            "additionally": {
+                "change": [],
+                "default": ["Ананасы", "брусника", "сгущенное молоко"]
+            },
+            "img": {
+                "thin": "http://localhost:3001/img/pizza/thin28.jpeg",
+                "traditional": "http://localhost:3001/img/pizza/traditional28.jpeg"
+            },
+            "calories": {
+                "energi": "758",
+                "protein": "13.6",
+                "fats": "71.1",
+                "carbohydrates": "55.4"
+            }
+        }
+    ]
+}

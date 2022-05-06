@@ -1,0 +1,270 @@
+{
+    "snacks": [
+        {
+            "id": 1,
+            "name": "Додстер",
+            "weight": "200",
+            "price": "169",
+            "description": "Легендарная горячая закуска с цыпленком, томатами, моцареллой, соусом ранч в тонкой пшеничной лепешке",
+            "img": "http://localhost:3001/img/snacks/dodster1.jpeg",
+            "calories": {
+                "energi": "224.8",
+                "protein": "12.5",
+                "fats": "10.7",
+                "carbohydrates": "18"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Острый Додстер",
+            "weight": "190",
+            "price": "169",
+            "description": "Горячая закуска с цыпленком, перчиком халапеньо, маринованными огурчиками, томатами, моцареллой и соусом барбекю в тонкой пшеничной лепешке",
+            "img": "http://localhost:3001/img/snacks/spicedodster2.jpeg",
+            "calories": {
+                "energi": "188.6",
+                "protein": "9.7",
+                "fats": "7.1",
+                "carbohydrates": "20.3"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Грибной Стартер",
+            "weight": "160",
+            "price": "169",
+            "description": "Горячая закуска с шампиньонами, моцареллой и соусом ранч в тонкой пшеничной лепешке",
+            "img": "http://localhost:3001/img/snacks/gribstarter3.jpeg",
+            "calories": {
+                "energi": "277.2",
+                "protein": "11.3",
+                "fats": "15.3",
+                "carbohydrates": "21.6"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Сырный Стартер",
+            "weight": "160",
+            "price": "169",
+            "description": "Горячая закуска с очень сырной начинкой. Моцарелла, пармезан, чеддер и соус ранч в тонкой пшеничной лепешке",
+            "img": "http://localhost:3001/img/snacks/cheasestarter4.jpeg",
+            "calories": {
+                "energi": "339.2",
+                "protein": "13.4",
+                "fats": "20.9",
+                "carbohydrates": "21.8"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Мясной Стартер",
+            "weight": "180",
+            "price": "169",
+            "description": "Горячая закуска с митболами, томатами, моцареллой и пикантным соусом бургер в тонкой пшеничной лепешке",
+            "img": "http://localhost:3001/img/snacks/meatstarter5.jpeg",
+            "calories": {
+                "energi": "270.2",
+                "protein": "12.8",
+                "fats": "14.2",
+                "carbohydrates": "21"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Острый Стартер",
+            "weight": "160",
+            "price": "169",
+            "description": "Горячая закуска с острыми колбасками чоризо, цыпленком, перчиком халапеньо, моцареллой и соусом барбекю в тонкой пшеничной лепешке",
+            "img": "http://localhost:3001/img/snacks/spicestarter6.jpeg",
+            "calories": {
+                "energi": "259",
+                "protein": "14",
+                "fats": "11.6",
+                "carbohydrates": "23"
+            }
+        },
+        {
+            "id": 7,
+            "name": "Ланчбокс с куриными крыльями",
+            "weight": "290",
+            "price": "315",
+            "description": "Горячий сытный обед из куриных крылышек со специями и ароматом копчения, картофеля из печи с итальянскими травами и соуса барбекю",
+            "img": "http://localhost:3001/img/snacks/lanchboxchiken7.jpeg",
+            "calories": {
+                "energi": "218",
+                "protein": "13.4",
+                "fats": "10.8",
+                "carbohydrates": "15.3"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Ланчбокс с куриными кусочками",
+            "weight": "240",
+            "price": "299",
+            "description": "Горячий сытный обед из нежных куриных кусочков, картофеля из печи с итальянскими травами и сырного соуса",
+            "img": "http://localhost:3001/img/snacks/lanchboxchiken8.jpeg",
+            "calories": {
+                "energi": "238.1",
+                "protein": "12.2",
+                "fats": "10.3",
+                "carbohydrates": "22.7"
+            }
+        },
+        {
+            "id": 9,
+            "name": "Картофель из печи",
+            "weight": "160",
+            "price": "179",
+            "description": "Ароматный запеченный картофель с итальянскими травами. Большая порция",
+            "img": "http://localhost:3001/img/snacks/patato9.jpeg",
+            "calories": {
+                "energi": "219.7",
+                "protein": "3.8",
+                "fats": "6.8",
+                "carbohydrates": "34.5"
+            }
+        },
+        {
+            "id": 10,
+            "name": "Куриные крылья",
+            "weight": "340",
+            "price": "369",
+            "description": "Куриные крылышки со специями и ароматом копчения. Большая порция",
+            "img": "http://localhost:3001/img/snacks/chiken10.jpeg",
+            "calories": {
+                "energi": "234",
+                "protein": "20.6",
+                "fats": "14.1",
+                "carbohydrates": "4.5"
+            }
+        },
+        {
+            "id": 11,
+            "name": "Куриные кусочки",
+            "weight": "280",
+            "price": "369",
+            "description": "Сочное куриное филе в хрустящей панировке. Большая порция",
+            "img": "http://localhost:3001/img/snacks/chiken11.jpeg",
+            "calories": {
+                "energi": "240.8",
+                "protein": "18",
+                "fats": "12.4",
+                "carbohydrates": "12.5"
+            }
+        },
+        {
+            "id": 12,
+            "name": "Паста Карбонара",
+            "weight": "320",
+            "price": "299",
+            "description": "Самая популярная паста с беконом, томатами, сырами чеддер, пармезан и моцарелла, соусом альфредо, итальянскими травами и чесноком",
+            "img": "http://localhost:3001/img/snacks/pasta12.jpeg",
+            "calories": {
+                "energi": "287",
+                "protein": "9.8",
+                "fats": "13.5",
+                "carbohydrates": "23.5"
+            }
+        },
+        {
+            "id": 13,
+            "name": "Паста Цыпленок и грибы",
+            "weight": "240",
+            "price": "299",
+            "description": "Паста с цыпленком, шампиньонами и моцареллой под соусом ранч с добавлением итальянских трав и чеснока",
+            "img": "http://localhost:3001/img/snacks/pasta13.jpeg",
+            "calories": {
+                "energi": "303",
+                "protein": "11",
+                "fats": "12",
+                "carbohydrates": "35.7"
+            }
+        },
+        {
+            "id": 14,
+            "name": "Соус Цезарь",
+            "weight": "40",
+            "price": "30",
+            "description": "Соус Цезарь",
+            "img": "http://localhost:3001/img/snacks/cesar14.jpeg",
+            "calories": {
+                "energi": "240",
+                "protein": "1.2",
+                "fats": "4.4",
+                "carbohydrates": "25"
+            }
+        },
+        {
+            "id": 15,
+            "name": "Картофельные оладьи, 8 шт",
+            "weight": "190",
+            "price": "209",
+            "description": "Хрустящие снаружи и нежные внутри оладьи из картофеля в панировке, запекаются в печи",
+            "img": "http://localhost:3001/img/snacks/potatooladushki15.jpeg",
+            "calories": {
+                "energi": "195",
+                "protein": "3.2",
+                "fats": "7.7",
+                "carbohydrates": "27"
+            }
+        },
+        {
+            "id": 16,
+            "name": "Салат Цезарь",
+            "weight": "190",
+            "price": "209",
+            "description": "Цыпленок, свежие листья салата айсберг, томаты черри, сыры чеддер и пармезан, соус цезарь, пшеничные гренки, итальянские травы",
+            "img": "http://localhost:3001/img/snacks/cesar16.jpeg",
+            "calories": {
+                "energi": "107.2",
+                "protein": "8.7",
+                "fats": "5",
+                "carbohydrates": "6.2"
+            }
+        },
+        {
+            "id": 17,
+            "name": "Греческий салат с соусом бальзамик",
+            "weight": "170",
+            "price": "189",
+            "description": "Хрустящий салат айсберг, сочные томаты черри, маслины, свежий огурец, кубики брынзы и бальзамик. Дрессинг для заправки в наборе",
+            "img": "http://localhost:3001/img/snacks/grech17.jpeg",
+            "calories": {
+                "energi": "11.6",
+                "protein": "0.7",
+                "fats": "0.1",
+                "carbohydrates": "2"
+            }
+        },
+        {
+            "id": 18,
+            "name": "Сырные палочки с Песто",
+            "weight": "380",
+            "price": "249",
+            "description": "Ароматная закуска на пышном хрустящем тесте. В комплекте соус ранч/чесночный — с ним вкуснее!",
+            "img": "http://localhost:3001/img/snacks/pesto18.jpeg",
+            "calories": {
+                "energi": "279.2",
+                "protein": "8.9",
+                "fats": "8.2",
+                "carbohydrates": "40.6"
+            }
+        },
+        {
+            "id": 19,
+            "name": "Сырные палочки с чесноком",
+            "weight": "360",
+            "price": "249",
+            "description": "Сытная закуска для любителей пышного и хрустящего теста. В комплекте соус ранч/чесночный — с ним вкуснее!",
+            "img": "http://localhost:3001/img/snacks/chease19.jpeg",
+            "calories": {
+                "energi": "288.9",
+                "protein": "9",
+                "fats": "8.7",
+                "carbohydrates": "41.3"
+            }
+        }
+    ]
+}

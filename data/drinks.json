@@ -1,0 +1,204 @@
+{
+    "drinks": [
+        {
+            "id": 1,
+            "name": "Морс Клюква",
+            "weight": "0.45",
+            "price": "109",
+            "description": "Эта ягода хитра! Наш фирменный морс для любителей сладкой кислинки",
+            "img": "http://localhost:3001/img/drinks/morskly1.jpeg"
+        },
+        {
+            "id": 2,
+            "name": "Морс Черная смородина",
+            "weight": "0.45",
+            "price": "109",
+            "description": "Для усиления ощущений от морса рекомендуем закрыть глаза и представить себя у бабушки в саду",
+            "img": "http://localhost:3001/img/drinks/morssmor2.jpeg"
+        },
+        {
+            "id": 3,
+            "name": "Морс Вишня",
+            "weight": "0.45",
+            "price": "109",
+            "description": "Напиток со вкусом ностальгии — летние каникулы, теплые ночи и уютные дачные посиделки. А еще никаких косточек",
+            "img": "http://localhost:3001/img/drinks/morschery3.jpeg"
+        },
+        {
+            "id": 4,
+            "name": "Кофе Кокосовый латте",
+            "weight": "0.3",
+            "price": "149",
+            "description": "Горячий напиток на основе эспрессо с увеличенной порцией молока и кокосовым сиропом",
+            "img": "http://localhost:3001/img/drinks/coffe4.jpeg"
+        },
+        {
+            "id": 5,
+            "name": "Малиновый пунш",
+            "weight": "0.3",
+            "price": "129",
+            "description": "Согревающий напиток на основе пюре малины и черной смородины",
+            "img": "http://localhost:3001/img/drinks/punsh5.jpeg"
+        },
+        {
+            "id": 6,
+            "name": "Кофе Американо",
+            "weight": "0.4",
+            "price": "99",
+            "description": "Пара глотков горячего Американо, и вы будете готовы покорять этот день",
+            "img": "http://localhost:3001/img/drinks/coffe6.jpeg"
+        },
+        {
+            "id": 7,
+            "name": "Кофе Ванильный капучино",
+            "weight": "0.3",
+            "price": "149",
+            "description": "Нежнее, еще нежнее! Это кофейный напиток со вспененным молоком и ванильным сиропом",
+            "img": "http://localhost:3001/img/drinks/vanile7.jpeg"
+        },
+        {
+            "id": 8,
+            "name": "Кофе Карамельный капучино",
+            "weight": "0.3",
+            "price": "149",
+            "description": "Если не шоколад, то карамель! А капучино с карамельным сиропом особенно хорош",
+            "img": "http://localhost:3001/img/drinks/coffe8.jpeg"
+        },
+        {
+            "id": 9,
+            "name": "Кофе Капучино",
+            "weight": "0.4",
+            "price": "149",
+            "description": "Король среди кофейных напитков — классический капучино. Для любителей сбалансированного кофейно-молочного вкуса",
+            "img": "http://localhost:3001/img/drinks/coffe9.jpeg"
+        },
+        {
+            "id": 10,
+            "name": "Кофе Ореховый латте",
+            "weight": "0.3",
+            "price": "149",
+            "description": "Много молока и фундука. Уютный латте на основе эспрессо и орехового сиропа",
+            "img": "http://localhost:3001/img/drinks/coffe10.jpeg"
+        },
+        {
+            "id": 11,
+            "name": "Кофе Латте",
+            "weight": "0.4",
+            "price": "149",
+            "description": "Когда хочется нежную молочную пенку, на помощь приходит классический латте",
+            "img": "http://localhost:3001/img/drinks/coffe11.jpeg"
+        },
+        {
+            "id": 12,
+            "name": "Coca-Cola Zero",
+            "weight": "0.5",
+            "price": "105",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/zero12.jpeg"
+        },
+        {
+            "id": 13,
+            "name": "Coca-Cola",
+            "weight": "0.5",
+            "price": "105",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/cola13.jpeg"
+        },
+        {
+            "id": 14,
+            "name": "Coca-Cola Lime",
+            "weight": "0.5",
+            "price": "105",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/colalime.jpeg"
+        },
+        {
+            "id": 15,
+            "name": "Coca-Cola Vanilla",
+            "weight": "0.5",
+            "price": "105",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/colavanila15.jpeg"
+        },
+        {
+            "id": 16,
+            "name": "Sprite",
+            "weight": "0.5",
+            "price": "105",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/sprite.jpeg"
+        },
+        {
+            "id": 17,
+            "name": "Fanta",
+            "weight": "0.5",
+            "price": "105",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/fanta17.jpeg"
+        },
+        {
+            "id": 18,
+            "name": "Schweppes bitter lemon",
+            "weight": "0.33",
+            "price": "85",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/shweps18.jpeg"
+        },
+        {
+            "id": 19,
+            "name": "FuzeTea Черный с лимоном и лемонграссом",
+            "weight": "0.5",
+            "price": "105",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/FuzeTea19.jpeg"
+        },
+        {
+            "id": 20,
+            "name": "FuzeTea Зеленый с манго и ромашкой",
+            "weight": "0.5",
+            "price": "105",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/FuzeTea20.jpeg"
+        },
+        {
+            "id": 21,
+            "name": "FuzeTea Улун малина и мята",
+            "weight": "0.5",
+            "price": "105",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/FuzeTea21.jpeg"
+        },
+        {
+            "id": 22,
+            "name": "Апельсиновый сок Rich",
+            "weight": "1",
+            "price": "199",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/Rich22.jpeg"
+        },
+        {
+            "id": 23,
+            "name": "Яблочный  сок Rich",
+            "weight": "1",
+            "price": "199",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/Rich23.jpeg"
+        },
+        {
+            "id": 24,
+            "name": "Вишневый  сок Rich",
+            "weight": "1",
+            "price": "199",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/Rich24.jpeg"
+        },
+        {
+            "id": 25,
+            "name": "BonAqua, негазированная",
+            "weight": "0.5",
+            "price": "75",
+            "description": "",
+            "img": "http://localhost:3001/img/drinks/bon25.jpeg"
+        }
+    ]
+}

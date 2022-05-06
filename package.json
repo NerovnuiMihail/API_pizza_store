@@ -1,0 +1,24 @@
+{
+  "name": "api-pizza-store",
+  "version": "1.0.0",
+  "description": "api for pizza store",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bd",
+    "bd for pizza store",
+    "pizza store",
+    "api for pizza store"
+  ],
+  "author": "nmy.webdev@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

@@ -1,0 +1,116 @@
+{
+    "dessert": [
+        {
+            "id": 1,
+            "name": "Вишневый пирог",
+            "weight": "104",
+            "price": "149",
+            "description": "Это не просто десерт, а вишенка на торте! Творожно-песочное тесто с ягодами, заварным кремом и лепестками миндаля.",
+            "img": "http://localhost:3001/img/dessert/pee1.jpeg",
+            "calories": {
+                "energi": "258",
+                "protein": "3.6",
+                "fats": "11.1",
+                "carbohydrates": "35.4"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Чизкейк Нью-Йорк",
+            "weight": "100",
+            "price": "139",
+            "description": "Мы перепробовали тысячу десертов и наконец нашли любимца гостей — нежнейший творожный чизкейк",
+            "img": "http://localhost:3001/img/dessert/newyork2.jpeg",
+            "calories": {
+                "energi": "341",
+                "protein": "6.9",
+                "fats": "22.1",
+                "carbohydrates": "28.5"
+            }
+        },
+        {
+            "id": 3,
+            "name": "2 Маффина Три шоколада",
+            "weight": "240",
+            "price": "219",
+            "description": "Основное блюдо заканчивается, начинаются маффины с начинкой на шоколадной основе с кубиками белого и молочного шоколада",
+            "img": "http://localhost:3001/img/dessert/maffin3.jpeg",
+            "calories": {
+                "energi": "490",
+                "protein": "6",
+                "fats": "27",
+                "carbohydrates": "57"
+            }
+        },
+        {
+            "id": 4,
+            "name": "2 Кукиса Три шоколада",
+            "weight": "150",
+            "price": "229",
+            "description": "С одной стороны, кукис — это хорошо, а с другой — два еще лучше. Сочетают в себе темный, бельгийский молочный и белый шоколад",
+            "img": "http://localhost:3001/img/dessert/2cooci4.jpeg",
+            "calories": {
+                "energi": "490",
+                "protein": "5.2",
+                "fats": "24",
+                "carbohydrates": "61"
+            }
+        },
+        {
+            "id": 5,
+            "name": "Фонданы",
+            "weight": "110",
+            "price": "289",
+            "description": "Четверо из пяти гостей говорят «Oh la la!», когда едят этот французский десерт с хрустящей корочкой и топленой шоколадной начинкой",
+            "img": "http://localhost:3001/img/dessert/fondani5.jpeg",
+            "calories": {
+                "energi": "430",
+                "protein": "5.2",
+                "fats": "26",
+                "carbohydrates": "43"
+            }
+        },
+        {
+            "id": 6,
+            "name": "Бруслетики, 16 шт",
+            "weight": "270",
+            "price": "205",
+            "description": "Это задорные сладкие рулетики, в которых закрутился микс из натуральной брусники и сгущенного молока",
+            "img": "http://localhost:3001/img/dessert/brusletici6.jpeg",
+            "calories": {
+                "energi": "281.8",
+                "protein": "4.7",
+                "fats": "2.6",
+                "carbohydrates": "58.2"
+            }
+        },        
+        {
+            "id": 7,
+            "name": "Рулетики с корицей, 16 шт",
+            "weight": "220",
+            "price": "205",
+            "description": "Десерт, одобренный нашими бабушками. Горячие сладкие рулетики с пряной корицей и сахаром",
+            "img": "http://localhost:3001/img/dessert/rulletici7.jpeg",
+            "calories": {
+                "energi": "340.7",
+                "protein": "5.6",
+                "fats": "3.1",
+                "carbohydrates": "70.4"
+            }
+        },
+        {
+            "id": 8,
+            "name": "Сырники с малиновым вареньем",
+            "weight": "260",
+            "price": "289",
+            "description": "Любимый десерт многих наших гостей — румяные сырники из печи. Такие нежные, в меру сладкие и напоминающие детство, 4 шт.",
+            "img": "http://localhost:3001/img/dessert/cheese8.jpeg",
+            "calories": {
+                "energi": "274.1",
+                "protein": "11.7",
+                "fats": "14.3",
+                "carbohydrates": "22.6"
+            }
+        }
+    ]
+}
