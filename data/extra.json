@@ -1,0 +1,130 @@
+{
+    "extra": [
+        {   
+            "id": 1,
+            "name": "Сырный бортик",
+            "cost": "179",
+            "img": "http://localhost:3001/img/extra/cheaseborder1.png"
+        },
+        {
+            "id": 2,
+            "name": "Моцарелла",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/mocarella2.png"
+        },
+        {
+            "id": 3,
+            "name": "Цыпленок",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/ciplenok3.png"
+        },
+        {
+            "id": 4,
+            "name": "Чеддер и пармезан",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/chedder4.png"
+        },
+        {
+            "id": 5,
+            "name": "Острый халапеньо",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/halepe5.png"
+        },
+        {
+            "id": 6,
+            "name": "Пикантная пепперони",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/pepperoni6.png"
+        },
+        {
+            "id": 7,
+            "name": "Ветчина",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/vetchina7.png"
+        },
+        {
+            "id": 8,
+            "name": "Шампиньоны",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/shampioni8.png"
+        },
+        {
+            "id": 9,
+            "name": "Бекон",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/becon9.png"
+        },
+        {
+            "id": 10,
+            "name": "Томаты",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/tomato10.png"
+        },
+        {
+            "id": 11,
+            "name": "Пастрами из индейки",
+            "cost": "159",
+            "img": "http://localhost:3001/img/extra/pastrami11.png"
+        },
+        {
+            "id": 12,
+            "name": "Маринованные огурчики",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/marogurchiki12.png"
+        },
+        {
+            "id": 13,
+            "name": "Острая чоризо",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/chorizzo12.png"
+        },
+        {
+            "id": 14,
+            "name": "Брынза",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/brinza14.png"
+        },
+        {
+            "id": 15,
+            "name": "Сыр блю чиз",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/bluchees15.png"
+        },
+        {
+            "id": 16,
+            "name": "Красный лук",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/redlu16.png"
+        },
+        {
+            "id": 17,
+            "name": "Итальянские травы",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/italygras17.png"
+        },
+        {
+            "id": 18,
+            "name": "Ананасы",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/ananas18.png"
+        },
+        {
+            "id": 19,
+            "name": "Митболы",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/meatboll19.png"
+        },
+        {
+            "id": 20,
+            "name": "Сладкий перец",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/perec20.png"
+        },
+        {
+            "id": 21,
+            "name": "Маслины",
+            "cost": "59",
+            "img": "http://localhost:3001/img/extra/maslini21.png"
+        }
+    ]
+}
