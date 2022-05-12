@@ -1,5 +1,13 @@
 const express = require("express");
-const {pizza,dessert,drinks,snacks,bonus,extra} = require('./routes');
+const {
+    pizza,
+    dessert,
+    drinks,
+    snacks,
+    bonus,
+    extra,
+    basket
+} = require('./routes');
 
 const app = express();
 
@@ -7,12 +15,20 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+app.use((req, res, next) => {
+    res.append('Access-Control-Allow-Origin', ['*']);
+    res.append('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+    res.append('Access-Control-Allow-Headers', 'Content-Type');
+    next();
+});
+
 app.use('/api/pizza', pizza);
 app.use('/api/dessert', dessert);
 app.use('/api/drinks', drinks);
 app.use('/api/snacks', snacks);
 app.use('/api/bonus', bonus);
 app.use('/api/extra', extra);
+app.use('/api/basket', basket);
 
 
 const PORT = 3001;
