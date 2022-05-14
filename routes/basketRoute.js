@@ -3,10 +3,16 @@ const DataBaseServices = require('../services/DataBaseServices');
 
 const router = express.Router();
 
-router.post('/',async (req,res) => {
-    console.log(req.body);
+router.post('/', (req,res) => {
+    const data = req.body;
+    const popular = data.currentBasket;
+    const cost = data.happyBuyer.totalCost;
+
+    DataBaseServices.addMostPopular(popular, cost);
+    DataBaseServices.createNewOrder(data);
+    
     res.status(200);
-    res.json(req.body);
+    res.json(data);
 });
 
 module.exports = router;
