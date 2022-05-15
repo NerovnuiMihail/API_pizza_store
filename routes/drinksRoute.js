@@ -8,4 +8,10 @@ router.get('/',async (req,res) => {
     res.json(data);
 });
 
+router.get('/:id', async (req,res) => {
+    const id = req.params.id;
+    const data = await DataBaseServices.getItemById('drinks', id);
+    res.json(data);
+});
+
 module.exports = router;
