@@ -6,6 +6,7 @@ const bonus = require('./bonusRoute');
 const extra = require('./extraRoute');
 const basket = require('./basketRoute');
 const popular = require('./popularRoute');
+const combos = require('./combosRoute');
 
 module.exports = {
     pizza,
@@ -15,5 +16,6 @@ module.exports = {
     bonus,
     extra,
     basket,
-    popular
+    popular,
+    combos
 }

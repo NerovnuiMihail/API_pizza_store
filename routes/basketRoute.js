@@ -8,6 +8,8 @@ router.post('/', (req,res) => {
     const popular = data.currentBasket;
     const cost = data.happyBuyer.totalCost;
 
+    console.log(data);
+
     DataBaseServices.addMostPopular(popular, cost);
     DataBaseServices.createNewOrder(data);
     

@@ -1,0 +1,114 @@
+{
+    "combos": [
+        {
+            "id": 1,
+            "title": "Набор Корпоратив",
+            "description": "7 причин сделать вечеринку вкуснее. 5 больших пицц, а так же 2 напитка на выбор для компании из 10–15 человек. Пиццы и напитки в комбо можно менять",
+            "startPriceWithSale": "2720",
+            "startPrice": "3270",
+            "imgPreview": "http://localhost:3001/img/combos/corporativ.jpg",
+            "combosItem": [
+                {
+                    "pizza": 5
+                },
+                {
+                    "drinks": 2
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "2 пиццы",
+            "description": "Парочка, что надо. 2 средних пиццы. Пиццы в комбо можно менять",
+            "startPriceWithSale": "730",
+            "startPrice": "918",
+            "imgPreview": "http://localhost:3001/img/combos/2pizzi.jpg",
+            "combosItem": [
+                {
+                    "pizza": 2
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "3 пиццы",
+            "description": "Три удовольствия в нашем меню — это 3 средних пиццы на ваш выбор. Пиццы в комбо можно менять",
+            "startPriceWithSale": "1210",
+            "startPrice": "1470",
+            "imgPreview": "http://localhost:3001/img/combos/3pizzi.jpg",
+            "combosItem": [
+                {
+                    "pizza": 3
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "2 пиццы и напиток",
+            "description": "Для уютных посиделок. 2 маленькие пиццы и напиток на выбор. Для компании из 2–4 человек. Пиццы в комбо можно менять",
+            "startPriceWithSale": "520",
+            "startPrice": "652",
+            "imgPreview": "http://localhost:3001/img/combos/2pizzianddrinks.jpg",
+            "combosItem": [
+                {
+                    "pizza": 2
+                },
+                {
+                    "drinks": 1
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "5 пицц",
+            "description": "5 причин сделать вечеринку вкуснее. 5 средних пицц для компании из 10–15 человек. Пиццы в комбо можно менять",
+            "startPriceWithSale": "1799",
+            "startPrice": "2399",
+            "imgPreview": "http://localhost:3001/img/combos/5pizz.jpg",
+            "combosItem": [
+                {
+                    "pizza": 5
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "ККККК-комбо 11 пицц",
+            "description": "Великолепная десятка. 11 средних пицц на любой вкус. Для компании из 20–30 человек. Пиццы в комбо можно менять",
+            "startPriceWithSale": "4099",
+            "startPrice": "5499",
+            "imgPreview": "http://localhost:3001/img/combos/11pizza.jpg",
+            "combosItem": [
+                {
+                    "pizza": 11
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "3 напитка лучше 2-х",
+            "description": "Порадуй товарища бесплатной коллойю Напитки в комбо можно менять",
+            "startPriceWithSale": "210",
+            "startPrice": "315",
+            "imgPreview": "http://localhost:3001/img/combos/coca-cola-fanta-and-sprite.jpg",
+            "combosItem": [
+                {
+                    "drinks": 3
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Зачем мелочится?",
+            "description": "Бери целый тортик вместо кусочка! Торт в комбо можно менять",
+            "startPriceWithSale": "720",
+            "startPrice": "970",
+            "imgPreview": "http://localhost:3001/img/combos/pee.jpeg",
+            "combosItem": [
+                {
+                    "dessert": 1
+                }
+            ]
+        }
+    ]
+}

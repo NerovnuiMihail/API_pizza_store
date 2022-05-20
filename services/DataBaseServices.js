@@ -50,6 +50,15 @@ class DataBaseServices {
 
         return response.slice(0,4);
     }
+
+    static async getIncome() {
+        const data = await this.getItems("mostPopular");
+
+        const prevIncome = data.prevIncome;
+        const incomeNow = data.incomeNow;
+
+        return [prevIncome, incomeNow];
+    }
 }
 
 module.exports = DataBaseServices;

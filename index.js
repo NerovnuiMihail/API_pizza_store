@@ -7,7 +7,8 @@ const {
     bonus,
     extra,
     basket,
-    popular
+    popular,
+    combos
 } = require('./routes');
 
 const app = express();
@@ -31,6 +32,7 @@ app.use('/api/bonus', bonus);
 app.use('/api/extra', extra);
 app.use('/api/basket', basket);
 app.use('/api/popular', popular);
+app.use('/api/combos', combos);
 
 
 const PORT = 3001;
@@ -46,6 +48,7 @@ app.listen(PORT, () => {
         http://localhost:${PORT}/api/bonus
         http://localhost:${PORT}/api/extra
         http://localhost:${PORT}/api/popular
+        http://localhost:${PORT}/api/combos
     `;
 
     console.log(message);
